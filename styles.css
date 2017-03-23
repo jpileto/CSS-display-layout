@@ -1,3 +1,119 @@
-* {
-  color: green;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
+
+* {
+  font-family: Arial, Helvetica, serif;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 0px;
+}
+
+nav li {
+  display: inline-block;
+  color: white;
+  background-color: lightgray;
+  padding: 10px;
+  font-weight: bold;
+}
+
+nav {
+  text-align: center;
+  margin-top: 1px;
+}
+
+ul {
+  margin: 0px;
+}
+
+h2 {
+  background-color: aquamarine;
+  padding: 15px;
+  width: 800px;
+  text-align: left;
+}
+
+main {
+  width: 800px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+  margin-bottom: 5px;
+
+}
+
+.option {
+  background-color: gold;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+#total {
+  text-decoration: underline;
+  text-decoration-color: #FFD700;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-weight: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+* {
+  font-family: Arial, serif;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.links {
+  background-color: lightgray;
+  color: white;
+}
+
+nav span {
+  display: inline;
+  padding: 10px;
+  font-size: 18px;
+}*/
